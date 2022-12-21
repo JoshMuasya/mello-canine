@@ -9,6 +9,7 @@ module.exports = {
       screens: {
         'sm': '301px',
         'md': '600px',
+        'xl': '800px',
         'lg': '1000px'
       },
       colors: {
@@ -23,12 +24,15 @@ module.exports = {
         'dropblack': '0 5px 5px #00000030'
       },
       fontSize: {
+        'xs': '10px',
         's': '16px',
+        'sl': '20px',
         'm': '24px',
         'l': '32px',
+        'ml': '36px',
         'lg': '40px',
         'xl': '48px',
-        'xxl': '72px',
+        'xxl': '60px',
       },
     },
   },
