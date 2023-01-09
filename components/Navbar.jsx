@@ -44,11 +44,11 @@ const Navbar = () => {
         {/* Links */}
         <div className='flex flex-row flex-wrap content-center justify-center'>
           <ul className='md:flex flex-row flex-wrap content-center hidden'>
-            <li className='p-5'><a href="#" className='font-medium md:text-xs xl:text-s lg:text-sl text-red hover:text-green ease-in duration-300 hover:ease-in hover:duration-300'>HOME</a></li>
-            <li className='p-5'><a href="#" className='font-medium md:text-xs xl:text-s lg:text-sl text-red hover:text-green ease-in duration-300 hover:ease-in hover:duration-300'>ABOUT</a></li>
-            <li className='p-5'><a href="#" className='font-medium md:text-xs xl:text-s lg:text-sl text-red hover:text-green ease-in duration-300 hover:ease-in hover:duration-300'>SERVICES</a></li>
-            <li className='p-5'><a href="#" className='font-medium md:text-xs xl:text-s lg:text-sl text-red hover:text-green ease-in duration-300 hover:ease-in hover:duration-300'>GALLERY</a></li>
-            <li className='p-5'><a href="#" className='font-medium md:text-xs xl:text-s lg:text-sl text-red hover:text-green ease-in duration-300 hover:ease-in hover:duration-300'>CONTACT</a></li>
+            <li className='p-5'><a href="#" className='font-libre font-semibold md:text-xs xl:text-s lg:text-sl text-red hover:text-green ease-in duration-300 hover:ease-in hover:duration-300'>HOME</a></li>
+            <li className='p-5'><a href="#" className='font-libre font-semibold md:text-xs xl:text-s lg:text-sl text-red hover:text-green ease-in duration-300 hover:ease-in hover:duration-300'>ABOUT</a></li>
+            <li className='p-5'><a href="#" className='font-libre font-semibold md:text-xs xl:text-s lg:text-sl text-red hover:text-green ease-in duration-300 hover:ease-in hover:duration-300'>SERVICES</a></li>
+            <li className='p-5'><a href="#" className='font-libre font-semibold md:text-xs xl:text-s lg:text-sl text-red hover:text-green ease-in duration-300 hover:ease-in hover:duration-300'>GALLERY</a></li>
+            <li className='p-5'><a href="#" className='font-libre font-semibold md:text-xs xl:text-s lg:text-sl text-red hover:text-green ease-in duration-300 hover:ease-in hover:duration-300'>CONTACT</a></li>
           </ul>
         </div> 
 
@@ -75,11 +75,11 @@ const Navbar = () => {
 
         {/* Mobile Links */}
         <ul>
-          <li className='p-5'><a href="#" className='font-medium text-red hover:text-green'><HomeIcon className='pr-1 w-7' />HOME</a></li>
-          <li className='p-5'><a href="#" className='font-medium text-red hover:text-green'><InfoIcon className='pr-1 w-7' />ABOUT</a></li>
-          <li className='p-5'><a href="#" className='font-medium text-red hover:text-green'><MiscellaneousServicesIcon className='pr-1 w-7' />SERVICES</a></li>
-          <li className='p-5'><a href="#" className='font-medium text-red hover:text-green'><CollectionsIcon className='pr-1 w-7' />GALLERY</a></li>
-          <li className='p-5'><a href="#" className='font-medium text-red hover:text-green'><ContactEmergencyIcon className='pr-1 w-8' />CONTACT</a></li>
+          <li className='p-5'><a href="#" className='font-libre font-semibold text-red hover:text-green'><HomeIcon className='pr-1 w-7' />HOME</a></li>
+          <li className='p-5'><a href="#" className='font-libre font-semibold text-red hover:text-green'><InfoIcon className='pr-1 w-7' />ABOUT</a></li>
+          <li className='p-5'><a href="#" className='font-libre font-semibold text-red hover:text-green'><MiscellaneousServicesIcon className='pr-1 w-7' />SERVICES</a></li>
+          <li className='p-5'><a href="#" className='font-libre font-semibold text-red hover:text-green'><CollectionsIcon className='pr-1 w-7' />GALLERY</a></li>
+          <li className='p-5'><a href="#" className='font-libre font-semibold text-red hover:text-green'><ContactEmergencyIcon className='pr-1 w-8' />CONTACT</a></li>
         </ul>
         </div>
 

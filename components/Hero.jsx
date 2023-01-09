@@ -40,12 +40,12 @@ const Hero = () => {
 
           {/* Buttons */}
           <div className='flex flex-row justify-between pt-5'>
-            <button className='bg-white text-red w-28 mr-3 lg:w-52 h-9 lg:h-14 font-bold rounded-full border border-red drop-shadow-dropred
+            <button className='bg-white text-red w-28 mr-3 font-libre lg:w-52 h-9 lg:h-14 font-bold rounded-full border border-red drop-shadow-dropred
             hover:text-white hover:bg-red hover:border-none'>
               About Us
             </button>
 
-            <button className='bg-red text-white w-28 ml-3 lg:w-52 h-9 lg:h-14 rounded-full drop-shadow-dropblack font-bold
+            <button className='bg-red text-white w-28 ml-3 lg:w-52 h-9 font-libre lg:h-14 rounded-full drop-shadow-dropblack font-bold
             hover:bg-white hover:text-red hover:border hover:border-red hover:rounded-full'>
               Contact Us
             </button>
