@@ -6,7 +6,7 @@ const Gallery = () => {
         <div>
             {/* Heading */}
             <div className='text-center'>
-                <h1 className='text-green font-bold text-xxl'><span className='text-red'>Take a Peek at</span> What we Do Best</h1>
+                <h1 className='text-green font-bold text-l xl:text-xxl'><span className='text-red'>Take a Peek at</span> What we Do Best</h1>
             </div>
 
             {/* Slider */}
