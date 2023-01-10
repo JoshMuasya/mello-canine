@@ -1,7 +1,9 @@
 import Head from 'next/head';
+import About from '../components/About';
+import Email from '../components/Email';
+import Gallery from '../components/Gallery';
 import Hero from '../components/Hero';
-import Navbar from '../components/Navbar';
-import { StyledEngineProvider } from '@mui/material/styles';
+import Services from '../components/Services';
 
 export default function Home() {
   return (
@@ -13,6 +15,10 @@ export default function Home() {
       </Head>
       
       <Hero />
+      <About />
+      <Services />
+      <Gallery />
+      <Email />
     </div>
   )
 }

@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'libre': ['"Libre Franklin"', 'sans-serif'],
+        'mont': ['Montserrat', 'sans-serif'],
+      },
       screens: {
         'sm': '301px',
         'md': '600px',
@@ -18,10 +22,13 @@ module.exports = {
         'navbarbg': 'rgba(0, 0, 0, 0.7)',
         'herobg': '#50A54E50',
         'white': '#FFFFFF',
+        'black': '#000000',
+        'greenbg': '#46955330',
       },
       dropShadow: {
         'dropred': '0 5px 5px rgba(210, 39, 34, 0.19)',
-        'dropblack': '0 5px 5px #00000030'
+        'dropblack': '0 5px 5px #00000030',
+        'dropgreen': '0 0 5px #469553'
       },
       fontSize: {
         'xs': '10px',
